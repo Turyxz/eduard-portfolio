@@ -1,43 +1,64 @@
-# Astro Starter Kit: Minimal
+# Modern Portfolio with Three.js & Tailwind CSS
 
-```sh
-npm create astro@latest -- --template minimal
+A stunning, modern portfolio website built with **Astro**, **Three.js**, and **Tailwind CSS**.
+
+## ✨ Features
+
+- **Three.js 3D Background** - Interactive particle system that responds to mouse movement
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **Glassmorphism Design** - Modern frosted glass effects and gradients
+- **Responsive Layout** - Works perfectly on all devices
+- **Smooth Animations** - Fade-in effects and hover transitions
+- **Fast Performance** - Built with Astro for optimal speed
+
+## 🎨 Tech Stack
+
+- **Astro** - Static site generator
+- **Three.js** - 3D graphics library
+- **Tailwind CSS** - CSS framework
+- **TypeScript** - Type-safe JavaScript
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📦 Build
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+npm run build
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🌍 Live Demo
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+The portfolio features:
+- Animated hero section with 3D particle background
+- Featured projects showcase
+- Contact section with social links
+- Fully responsive design
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 📁 Project Structure
 
-## 🧞 Commands
+```
+src/
+├── components/
+│   └── ThreeBackground.astro  # Three.js particle animation
+├── layouts/
+│   └── Layout.astro           # Main layout
+├── pages/
+│   └── index.astro            # Home page
+└── styles/
+    └── global.css             # Tailwind styles
+```
 
-All commands are run from the root of the project, from a terminal:
+## 🎯 Three.js Features
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- 2000 interactive particles
+- Mouse-responsive rotation
+- Smooth animations
+- Optimized performance
+- Additive blending effects
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Built with ❤️ using Astro, Three.js, and Tailwind CSS
